@@ -16,6 +16,25 @@
 		150217442C43E2EF00C80D1A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173E2C43E2EF00C80D1A /* Montserrat-Medium.ttf */; };
 		150217452C43E2EF00C80D1A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */; };
 		150217462C43E2EF00C80D1A /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */; };
+		1502174C2C43E40600C80D1A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217492C43E40600C80D1A /* AuthViewModel.swift */; };
+		150217652C43E43D00C80D1A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502174D2C43E43D00C80D1A /* Constants.swift */; };
+		150217662C43E43D00C80D1A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502174E2C43E43D00C80D1A /* Extensions.swift */; };
+		150217672C43E43D00C80D1A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502174F2C43E43D00C80D1A /* Font.swift */; };
+		150217682C43E43D00C80D1A /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217502C43E43D00C80D1A /* UIExtensions.swift */; };
+		1502176A2C43E43D00C80D1A /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217532C43E43D00C80D1A /* PhoneModel.swift */; };
+		1502176B2C43E43D00C80D1A /* PhoneValidState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217542C43E43D00C80D1A /* PhoneValidState.swift */; };
+		1502176F2C43E43D00C80D1A /* CustomGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502175A2C43E43D00C80D1A /* CustomGradient.swift */; };
+		150217702C43E43D00C80D1A /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502175B2C43E43D00C80D1A /* RoundedCorner.swift */; };
+		150217712C43E43D00C80D1A /* WBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502175C2C43E43D00C80D1A /* WBButton.swift */; };
+		150217732C43E43D00C80D1A /* PhoneMaskNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502175F2C43E43D00C80D1A /* PhoneMaskNumberField.swift */; };
+		150217742C43E43D00C80D1A /* AuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217612C43E43D00C80D1A /* AuthScreen.swift */; };
+		150217762C43E43D00C80D1A /* IpadContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217632C43E43D00C80D1A /* IpadContainerView.swift */; };
+		1502177B2C43E47400C80D1A /* HiddenNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217772C43E47400C80D1A /* HiddenNavigationBar.swift */; };
+		1502177C2C43E47400C80D1A /* HideKeyboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217782C43E47400C80D1A /* HideKeyboardModifier.swift */; };
+		1502177D2C43E47400C80D1A /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217792C43E47400C80D1A /* ShakeEffect.swift */; };
+		1502177F2C43E4AA00C80D1A /* OTPState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502177E2C43E4AA00C80D1A /* OTPState.swift */; };
+		150217812C43E4B200C80D1A /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217802C43E4B200C80D1A /* OTPView.swift */; };
+		150217832C43E4B700C80D1A /* InputCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217822C43E4B700C80D1A /* InputCodeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +49,25 @@
 		1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		150217472C43E32000C80D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		150217492C43E40600C80D1A /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		1502174D2C43E43D00C80D1A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1502174E2C43E43D00C80D1A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1502174F2C43E43D00C80D1A /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		150217502C43E43D00C80D1A /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		150217532C43E43D00C80D1A /* PhoneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneModel.swift; sourceTree = "<group>"; };
+		150217542C43E43D00C80D1A /* PhoneValidState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneValidState.swift; sourceTree = "<group>"; };
+		1502175A2C43E43D00C80D1A /* CustomGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGradient.swift; sourceTree = "<group>"; };
+		1502175B2C43E43D00C80D1A /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		1502175C2C43E43D00C80D1A /* WBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBButton.swift; sourceTree = "<group>"; };
+		1502175F2C43E43D00C80D1A /* PhoneMaskNumberField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneMaskNumberField.swift; sourceTree = "<group>"; };
+		150217612C43E43D00C80D1A /* AuthScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthScreen.swift; sourceTree = "<group>"; };
+		150217632C43E43D00C80D1A /* IpadContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IpadContainerView.swift; sourceTree = "<group>"; };
+		150217772C43E47400C80D1A /* HiddenNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenNavigationBar.swift; sourceTree = "<group>"; };
+		150217782C43E47400C80D1A /* HideKeyboardModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideKeyboardModifier.swift; sourceTree = "<group>"; };
+		150217792C43E47400C80D1A /* ShakeEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		1502177E2C43E4AA00C80D1A /* OTPState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPState.swift; sourceTree = "<group>"; };
+		150217802C43E4B200C80D1A /* OTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		150217822C43E4B700C80D1A /* InputCodeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputCodeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +100,15 @@
 		1502172D2C43E2CE00C80D1A /* WBSeniorCourse */ = {
 			isa = PBXGroup;
 			children = (
-				150217472C43E32000C80D1A /* Info.plist */,
 				1502172E2C43E2CE00C80D1A /* WBSeniorCourseApp.swift */,
 				150217302C43E2CE00C80D1A /* ContentView.swift */,
+				1502174A2C43E40600C80D1A /* ViewModel */,
+				150217642C43E43D00C80D1A /* View */,
+				150217552C43E43D00C80D1A /* Model */,
+				1502175D2C43E43D00C80D1A /* Components */,
+				150217512C43E43D00C80D1A /* Extensions */,
 				150217322C43E2CF00C80D1A /* Assets.xcassets */,
+				150217472C43E32000C80D1A /* Info.plist */,
 				150217412C43E2EF00C80D1A /* Font */,
 				150217342C43E2CF00C80D1A /* Preview Content */,
 			);
@@ -90,6 +133,76 @@
 				150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		1502174A2C43E40600C80D1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				150217492C43E40600C80D1A /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		150217512C43E43D00C80D1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1502174D2C43E43D00C80D1A /* Constants.swift */,
+				1502174E2C43E43D00C80D1A /* Extensions.swift */,
+				1502174F2C43E43D00C80D1A /* Font.swift */,
+				150217502C43E43D00C80D1A /* UIExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		150217552C43E43D00C80D1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1502177E2C43E4AA00C80D1A /* OTPState.swift */,
+				150217532C43E43D00C80D1A /* PhoneModel.swift */,
+				150217542C43E43D00C80D1A /* PhoneValidState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1502175D2C43E43D00C80D1A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1502177A2C43E47400C80D1A /* CustomModifier  */,
+				1502175A2C43E43D00C80D1A /* CustomGradient.swift */,
+				1502175B2C43E43D00C80D1A /* RoundedCorner.swift */,
+				1502175C2C43E43D00C80D1A /* WBButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		150217602C43E43D00C80D1A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				150217802C43E4B200C80D1A /* OTPView.swift */,
+				1502175F2C43E43D00C80D1A /* PhoneMaskNumberField.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		150217642C43E43D00C80D1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				150217602C43E43D00C80D1A /* Component */,
+				150217612C43E43D00C80D1A /* AuthScreen.swift */,
+				150217822C43E4B700C80D1A /* InputCodeScreen.swift */,
+				150217632C43E43D00C80D1A /* IpadContainerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1502177A2C43E47400C80D1A /* CustomModifier  */ = {
+			isa = PBXGroup;
+			children = (
+				150217772C43E47400C80D1A /* HiddenNavigationBar.swift */,
+				150217782C43E47400C80D1A /* HideKeyboardModifier.swift */,
+				150217792C43E47400C80D1A /* ShakeEffect.swift */,
+			);
+			path = "CustomModifier ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,8 +280,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150217732C43E43D00C80D1A /* PhoneMaskNumberField.swift in Sources */,
+				1502176F2C43E43D00C80D1A /* CustomGradient.swift in Sources */,
+				150217662C43E43D00C80D1A /* Extensions.swift in Sources */,
+				150217682C43E43D00C80D1A /* UIExtensions.swift in Sources */,
+				1502174C2C43E40600C80D1A /* AuthViewModel.swift in Sources */,
+				1502177B2C43E47400C80D1A /* HiddenNavigationBar.swift in Sources */,
+				150217812C43E4B200C80D1A /* OTPView.swift in Sources */,
+				1502176B2C43E43D00C80D1A /* PhoneValidState.swift in Sources */,
+				150217672C43E43D00C80D1A /* Font.swift in Sources */,
+				150217832C43E4B700C80D1A /* InputCodeScreen.swift in Sources */,
 				150217312C43E2CE00C80D1A /* ContentView.swift in Sources */,
 				1502172F2C43E2CE00C80D1A /* WBSeniorCourseApp.swift in Sources */,
+				150217762C43E43D00C80D1A /* IpadContainerView.swift in Sources */,
+				1502177C2C43E47400C80D1A /* HideKeyboardModifier.swift in Sources */,
+				150217652C43E43D00C80D1A /* Constants.swift in Sources */,
+				150217702C43E43D00C80D1A /* RoundedCorner.swift in Sources */,
+				1502176A2C43E43D00C80D1A /* PhoneModel.swift in Sources */,
+				150217742C43E43D00C80D1A /* AuthScreen.swift in Sources */,
+				150217712C43E43D00C80D1A /* WBButton.swift in Sources */,
+				1502177D2C43E47400C80D1A /* ShakeEffect.swift in Sources */,
+				1502177F2C43E4AA00C80D1A /* OTPState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
