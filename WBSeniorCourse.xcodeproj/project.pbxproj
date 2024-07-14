@@ -11,6 +11,11 @@
 		150217312C43E2CE00C80D1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217302C43E2CE00C80D1A /* ContentView.swift */; };
 		150217332C43E2CF00C80D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150217322C43E2CF00C80D1A /* Assets.xcassets */; };
 		150217362C43E2CF00C80D1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150217352C43E2CF00C80D1A /* Preview Assets.xcassets */; };
+		150217422C43E2EF00C80D1A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173C2C43E2EF00C80D1A /* Montserrat-Bold.ttf */; };
+		150217432C43E2EF00C80D1A /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173D2C43E2EF00C80D1A /* Montserrat-Italic.ttf */; };
+		150217442C43E2EF00C80D1A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173E2C43E2EF00C80D1A /* Montserrat-Medium.ttf */; };
+		150217452C43E2EF00C80D1A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */; };
+		150217462C43E2EF00C80D1A /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		150217302C43E2CE00C80D1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		150217322C43E2CF00C80D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		150217352C43E2CF00C80D1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1502173C2C43E2EF00C80D1A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		1502173D2C43E2EF00C80D1A /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		1502173E2C43E2EF00C80D1A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		150217472C43E32000C80D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +62,11 @@
 		1502172D2C43E2CE00C80D1A /* WBSeniorCourse */ = {
 			isa = PBXGroup;
 			children = (
+				150217472C43E32000C80D1A /* Info.plist */,
 				1502172E2C43E2CE00C80D1A /* WBSeniorCourseApp.swift */,
 				150217302C43E2CE00C80D1A /* ContentView.swift */,
 				150217322C43E2CF00C80D1A /* Assets.xcassets */,
+				150217412C43E2EF00C80D1A /* Font */,
 				150217342C43E2CF00C80D1A /* Preview Content */,
 			);
 			path = WBSeniorCourse;
@@ -65,6 +78,18 @@
 				150217352C43E2CF00C80D1A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		150217412C43E2EF00C80D1A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1502173C2C43E2EF00C80D1A /* Montserrat-Bold.ttf */,
+				1502173D2C43E2EF00C80D1A /* Montserrat-Italic.ttf */,
+				1502173E2C43E2EF00C80D1A /* Montserrat-Medium.ttf */,
+				1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */,
+				150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +150,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150217452C43E2EF00C80D1A /* Montserrat-Regular.ttf in Resources */,
 				150217362C43E2CF00C80D1A /* Preview Assets.xcassets in Resources */,
+				150217442C43E2EF00C80D1A /* Montserrat-Medium.ttf in Resources */,
+				150217462C43E2EF00C80D1A /* Montserrat-SemiBold.ttf in Resources */,
 				150217332C43E2CF00C80D1A /* Assets.xcassets in Resources */,
+				150217422C43E2EF00C80D1A /* Montserrat-Bold.ttf in Resources */,
+				150217432C43E2EF00C80D1A /* Montserrat-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,11 +305,13 @@
 				DEVELOPMENT_TEAM = PP55TUKCZU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBSeniorCourse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +319,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = shurup.WBSeniorCourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +340,13 @@
 				DEVELOPMENT_TEAM = PP55TUKCZU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBSeniorCourse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +354,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = shurup.WBSeniorCourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
