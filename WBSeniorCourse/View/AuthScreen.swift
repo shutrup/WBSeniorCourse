@@ -37,6 +37,12 @@ struct AuthScreen: View {
             }
             .padding(24)
             .background(CustomGradient.bgGradient.ignoresSafeArea())
+            .navigationDestination(isPresented: Binding(
+                get: { authVm.phoneModel.phoneValidState == .success },
+                set: { _, _ in })) {
+                    InputCodeScreen()
+                        .environmentObject(authVm)
+                }
         }
     }
 }
