@@ -8,14 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var localizationService: LocalizationService
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(
+                NSLocalizedString("greeting",
+                comment: "")
+            )
+                .padding()
+            
+            DateView()
+                .environmentObject(localizationService)
+            
+            DistanceView()
+                .environmentObject(localizationService)
+            
+            Button {
+                localizationService.currentLanguage = localizationService.currentLanguage == "en" ? "ru" : "en"
+            } label: {
+                Text(
+                    NSLocalizedString("change_language",
+                    comment: "")
+                )
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

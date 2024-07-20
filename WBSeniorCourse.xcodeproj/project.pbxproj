@@ -16,6 +16,11 @@
 		150217442C43E2EF00C80D1A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173E2C43E2EF00C80D1A /* Montserrat-Medium.ttf */; };
 		150217452C43E2EF00C80D1A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */; };
 		150217462C43E2EF00C80D1A /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */; };
+		15688D452C4B6E350051DB87 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15688D432C4B6E350051DB87 /* Localizable.strings */; };
+		15688D482C4B6E830051DB87 /* LocalizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15688D472C4B6E830051DB87 /* LocalizationService.swift */; };
+		15688D4A2C4B6EDD0051DB87 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15688D492C4B6EDD0051DB87 /* Extensions.swift */; };
+		15688D4C2C4B6EEA0051DB87 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15688D4B2C4B6EEA0051DB87 /* DateView.swift */; };
+		15688D4E2C4B6F6D0051DB87 /* DistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15688D4D2C4B6F6C0051DB87 /* DistanceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,12 @@
 		1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		150217472C43E32000C80D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		15688D442C4B6E350051DB87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		15688D462C4B6E580051DB87 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		15688D472C4B6E830051DB87 /* LocalizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationService.swift; sourceTree = "<group>"; };
+		15688D492C4B6EDD0051DB87 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		15688D4B2C4B6EEA0051DB87 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		15688D4D2C4B6F6C0051DB87 /* DistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +73,14 @@
 		1502172D2C43E2CE00C80D1A /* WBSeniorCourse */ = {
 			isa = PBXGroup;
 			children = (
+				15688D432C4B6E350051DB87 /* Localizable.strings */,
 				150217472C43E32000C80D1A /* Info.plist */,
 				1502172E2C43E2CE00C80D1A /* WBSeniorCourseApp.swift */,
 				150217302C43E2CE00C80D1A /* ContentView.swift */,
+				15688D4B2C4B6EEA0051DB87 /* DateView.swift */,
+				15688D4D2C4B6F6C0051DB87 /* DistanceView.swift */,
+				15688D472C4B6E830051DB87 /* LocalizationService.swift */,
+				15688D492C4B6EDD0051DB87 /* Extensions.swift */,
 				150217322C43E2CF00C80D1A /* Assets.xcassets */,
 				150217412C43E2EF00C80D1A /* Font */,
 				150217342C43E2CF00C80D1A /* Preview Content */,
@@ -134,6 +150,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 150217222C43E2CE00C80D1A;
 			productRefGroup = 1502172C2C43E2CE00C80D1A /* Products */;
@@ -155,6 +172,7 @@
 				150217442C43E2EF00C80D1A /* Montserrat-Medium.ttf in Resources */,
 				150217462C43E2EF00C80D1A /* Montserrat-SemiBold.ttf in Resources */,
 				150217332C43E2CF00C80D1A /* Assets.xcassets in Resources */,
+				15688D452C4B6E350051DB87 /* Localizable.strings in Resources */,
 				150217422C43E2EF00C80D1A /* Montserrat-Bold.ttf in Resources */,
 				150217432C43E2EF00C80D1A /* Montserrat-Italic.ttf in Resources */,
 			);
@@ -167,12 +185,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15688D4C2C4B6EEA0051DB87 /* DateView.swift in Sources */,
+				15688D4E2C4B6F6D0051DB87 /* DistanceView.swift in Sources */,
 				150217312C43E2CE00C80D1A /* ContentView.swift in Sources */,
 				1502172F2C43E2CE00C80D1A /* WBSeniorCourseApp.swift in Sources */,
+				15688D482C4B6E830051DB87 /* LocalizationService.swift in Sources */,
+				15688D4A2C4B6EDD0051DB87 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15688D432C4B6E350051DB87 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15688D442C4B6E350051DB87 /* en */,
+				15688D462C4B6E580051DB87 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		150217372C43E2CF00C80D1A /* Debug */ = {
@@ -180,6 +214,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -243,6 +278,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
