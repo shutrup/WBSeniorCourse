@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  WBSeniorCourse
+
+  Created by Шарап Бамматов on 20.07.2024.
+  
+*/
+
+"greeting" = "Привет, добро пожаловать!";
+"current_time" = "Текущее время:";
+"distance" = "Расстояние:";
+"change_language" = "Сменить язык";
+"meters" = "Метры";
+"kilometers" = "Километры";
+"miles" = "Мили";
+"short" = "Краткий";
+"medium" = "Средний";
+"long" = "Длинный";
