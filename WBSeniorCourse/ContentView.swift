@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var store = Store<SidebarState, SidebarAction>(
+        initialState: SidebarState(),
+        reducer: SidebarReducer().reduce
+    )
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack(spacing: 0) {
+            SidebarView()
+                .environmentObject(store)
+            
+            Text("Выбранная вкладка: \(store.state.selectedTab)")
+                .font(.largeTitle)
+                .padding()
+            
+            Spacer()
         }
-        .padding()
     }
 }
 

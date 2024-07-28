@@ -16,6 +16,13 @@
 		150217442C43E2EF00C80D1A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173E2C43E2EF00C80D1A /* Montserrat-Medium.ttf */; };
 		150217452C43E2EF00C80D1A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */; };
 		150217462C43E2EF00C80D1A /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */; };
+		1521170D2C569468000BB27C /* SidebarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1521170C2C569468000BB27C /* SidebarAction.swift */; };
+		1521170F2C569474000BB27C /* SidebarState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1521170E2C569474000BB27C /* SidebarState.swift */; };
+		152117112C569481000BB27C /* SidebarReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152117102C569481000BB27C /* SidebarReducer.swift */; };
+		152117132C569496000BB27C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152117122C569496000BB27C /* Store.swift */; };
+		152117152C5694B2000BB27C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152117142C5694B2000BB27C /* SidebarView.swift */; };
+		152117192C569501000BB27C /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152117182C569501000BB27C /* TabItem.swift */; };
+		1521171B2C56A302000BB27C /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1521171A2C56A302000BB27C /* TabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,13 @@
 		1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		150217472C43E32000C80D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1521170C2C569468000BB27C /* SidebarAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarAction.swift; sourceTree = "<group>"; };
+		1521170E2C569474000BB27C /* SidebarState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarState.swift; sourceTree = "<group>"; };
+		152117102C569481000BB27C /* SidebarReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarReducer.swift; sourceTree = "<group>"; };
+		152117122C569496000BB27C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		152117142C5694B2000BB27C /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		152117182C569501000BB27C /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		1521171A2C56A302000BB27C /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +78,10 @@
 			children = (
 				150217472C43E32000C80D1A /* Info.plist */,
 				1502172E2C43E2CE00C80D1A /* WBSeniorCourseApp.swift */,
+				152117122C569496000BB27C /* Store.swift */,
 				150217302C43E2CE00C80D1A /* ContentView.swift */,
+				1521170B2C56945A000BB27C /* SideTabbar  */,
+				152117172C5694FB000BB27C /* Model */,
 				150217322C43E2CF00C80D1A /* Assets.xcassets */,
 				150217412C43E2EF00C80D1A /* Font */,
 				150217342C43E2CF00C80D1A /* Preview Content */,
@@ -90,6 +107,34 @@
 				150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		1521170B2C56945A000BB27C /* SideTabbar  */ = {
+			isa = PBXGroup;
+			children = (
+				152117142C5694B2000BB27C /* SidebarView.swift */,
+				1521171A2C56A302000BB27C /* TabButton.swift */,
+				152117162C5694C2000BB27C /* Components */,
+			);
+			path = "SideTabbar ";
+			sourceTree = "<group>";
+		};
+		152117162C5694C2000BB27C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1521170C2C569468000BB27C /* SidebarAction.swift */,
+				1521170E2C569474000BB27C /* SidebarState.swift */,
+				152117102C569481000BB27C /* SidebarReducer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		152117172C5694FB000BB27C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				152117182C569501000BB27C /* TabItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1521171B2C56A302000BB27C /* TabButton.swift in Sources */,
+				152117112C569481000BB27C /* SidebarReducer.swift in Sources */,
+				1521170F2C569474000BB27C /* SidebarState.swift in Sources */,
+				152117152C5694B2000BB27C /* SidebarView.swift in Sources */,
 				150217312C43E2CE00C80D1A /* ContentView.swift in Sources */,
+				152117132C569496000BB27C /* Store.swift in Sources */,
+				1521170D2C569468000BB27C /* SidebarAction.swift in Sources */,
+				152117192C569501000BB27C /* TabItem.swift in Sources */,
 				1502172F2C43E2CE00C80D1A /* WBSeniorCourseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
