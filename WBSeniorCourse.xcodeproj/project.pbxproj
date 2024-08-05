@@ -25,6 +25,9 @@
 		150480552C60DD92007B9A18 /* URLSession + Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150480542C60DD92007B9A18 /* URLSession + Exts.swift */; };
 		150480572C60DDD2007B9A18 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150480562C60DDD2007B9A18 /* NetworkManagerTests.swift */; };
 		150480592C60DDF7007B9A18 /* MockEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150480582C60DDF7007B9A18 /* MockEndpoint.swift */; };
+		1504805D2C60E026007B9A18 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504805C2C60E026007B9A18 /* CalculatorViewModel.swift */; };
+		1504805F2C60E03D007B9A18 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504805E2C60E03D007B9A18 /* CalculatorView.swift */; };
+		150480622C60E0E6007B9A18 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150480612C60E0E6007B9A18 /* CalculatorUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		150480542C60DD92007B9A18 /* URLSession + Exts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession + Exts.swift"; sourceTree = "<group>"; };
 		150480562C60DDD2007B9A18 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		150480582C60DDF7007B9A18 /* MockEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEndpoint.swift; sourceTree = "<group>"; };
+		1504805C2C60E026007B9A18 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		1504805E2C60E03D007B9A18 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		150480612C60E0E6007B9A18 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 		150480392C60DB31007B9A18 /* WBSeniorCourseTests */ = {
 			isa = PBXGroup;
 			children = (
+				150480602C60E0BF007B9A18 /* CalculatorUITest */,
 				1504804C2C60DCAF007B9A18 /* NetworkManager */,
 				1504804B2C60DCAA007B9A18 /* Calculator */,
 			);
@@ -145,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				150480302C60DA4C007B9A18 /* Calculator.swift */,
+				1504805C2C60E026007B9A18 /* CalculatorViewModel.swift */,
+				1504805E2C60E03D007B9A18 /* CalculatorView.swift */,
 			);
 			path = "Calculator ";
 			sourceTree = "<group>";
@@ -176,6 +185,14 @@
 				150480562C60DDD2007B9A18 /* NetworkManagerTests.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		150480602C60E0BF007B9A18 /* CalculatorUITest */ = {
+			isa = PBXGroup;
+			children = (
+				150480612C60E0E6007B9A18 /* CalculatorUITests.swift */,
+			);
+			path = CalculatorUITest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +302,12 @@
 			files = (
 				1504804A2C60DC22007B9A18 /* NetworkManager.swift in Sources */,
 				150480552C60DD92007B9A18 /* URLSession + Exts.swift in Sources */,
+				1504805D2C60E026007B9A18 /* CalculatorViewModel.swift in Sources */,
 				150217312C43E2CE00C80D1A /* ContentView.swift in Sources */,
 				1502172F2C43E2CE00C80D1A /* WBSeniorCourseApp.swift in Sources */,
 				150480462C60DC03007B9A18 /* Endpoint.swift in Sources */,
 				150480312C60DA4C007B9A18 /* Calculator.swift in Sources */,
+				1504805F2C60E03D007B9A18 /* CalculatorView.swift in Sources */,
 				150480482C60DC16007B9A18 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +320,7 @@
 				150480572C60DDD2007B9A18 /* NetworkManagerTests.swift in Sources */,
 				150480532C60DD19007B9A18 /* URLSessionMock.swift in Sources */,
 				150480422C60DB3E007B9A18 /* CalculatorTests.swift in Sources */,
+				150480622C60E0E6007B9A18 /* CalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
