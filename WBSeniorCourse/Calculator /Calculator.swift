@@ -8,30 +8,26 @@
 import Foundation
 
 protocol Calculatable {
-    func add(_ a: Double, _ b: Double) -> Double
-    func subtract(_ a: Double, _ b: Double) -> Double
-    func multiply(_ a: Double, _ b: Double) -> Double
-    func divide(_ a: Double, _ b: Double) throws -> Double
-}
-
-enum CalculatorError: Error {
-    case divisionByZero
+    func add<T: Numeric>(_ a: T, _ b: T) -> T
+    func subtract<T: Numeric>(_ a: T, _ b: T) -> T
+    func multiply<T: Numeric>(_ a: T, _ b: T) -> T
+    func divide<T: FloatingPoint>(_ a: T, _ b: T) throws -> T
 }
 
 class Calculator: Calculatable {
-    func add(_ a: Double, _ b: Double) -> Double {
+    func add<T: Numeric>(_ a: T, _ b: T) -> T {
         return a + b
     }
     
-    func subtract(_ a: Double, _ b: Double) -> Double {
+    func subtract<T: Numeric>(_ a: T, _ b: T) -> T {
         return a - b
     }
     
-    func multiply(_ a: Double, _ b: Double) -> Double {
+    func multiply<T: Numeric>(_ a: T, _ b: T) -> T {
         return a * b
     }
     
-    func divide(_ a: Double, _ b: Double) throws -> Double {
+    func divide<T: FloatingPoint>(_ a: T, _ b: T) throws -> T {
         guard b != 0 else {
             throw CalculatorError.divisionByZero
         }
@@ -39,4 +35,6 @@ class Calculator: Calculatable {
     }
 }
 
-
+enum CalculatorError: Error {
+    case divisionByZero
+}
