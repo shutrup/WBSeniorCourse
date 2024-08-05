@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var store = Store<SidebarState, SidebarAction>(
+        initialState: SidebarState(),
+        reducer: SidebarReducer().reduce
+    )
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack(spacing: 0) {
+            SidebarView()
+                .environmentObject(store)
+            
+            switch store.state.selectedTab {
+                case .statistic:
+                    StatisticView()
+                case .chat:
+                    ChatView()
+                case .fire:
+                    FireView()
+                case .calendar:
+                    CalendarView()
+                case .settings:
+                    SettingsView()
+            }
+            
+            Spacer()
         }
-        .padding()
     }
 }
 
