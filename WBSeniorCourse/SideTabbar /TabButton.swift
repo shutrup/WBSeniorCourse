@@ -43,7 +43,6 @@ struct TabButton: View {
                         )
                 }
             }
-//            .shadow(color: .white.opacity(isSelected ? 0.7 : 0), radius: 12, x: 0, y: 0)
         }
     }
 }

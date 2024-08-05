@@ -16,6 +16,11 @@
 		150217442C43E2EF00C80D1A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173E2C43E2EF00C80D1A /* Montserrat-Medium.ttf */; };
 		150217452C43E2EF00C80D1A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */; };
 		150217462C43E2EF00C80D1A /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */; };
+		150480252C60CCAF007B9A18 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150480242C60CCAF007B9A18 /* StatisticView.swift */; };
+		150480272C60CCB6007B9A18 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150480262C60CCB6007B9A18 /* ChatView.swift */; };
+		150480292C60CCBB007B9A18 /* FireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150480282C60CCBA007B9A18 /* FireView.swift */; };
+		1504802B2C60CCC2007B9A18 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504802A2C60CCC2007B9A18 /* CalendarView.swift */; };
+		1504802D2C60CCC9007B9A18 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504802C2C60CCC9007B9A18 /* SettingsView.swift */; };
 		1521170D2C569468000BB27C /* SidebarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1521170C2C569468000BB27C /* SidebarAction.swift */; };
 		1521170F2C569474000BB27C /* SidebarState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1521170E2C569474000BB27C /* SidebarState.swift */; };
 		152117112C569481000BB27C /* SidebarReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152117102C569481000BB27C /* SidebarReducer.swift */; };
@@ -37,6 +42,11 @@
 		1502173F2C43E2EF00C80D1A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		150217472C43E32000C80D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		150480242C60CCAF007B9A18 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		150480262C60CCB6007B9A18 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		150480282C60CCBA007B9A18 /* FireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireView.swift; sourceTree = "<group>"; };
+		1504802A2C60CCC2007B9A18 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		1504802C2C60CCC9007B9A18 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1521170C2C569468000BB27C /* SidebarAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarAction.swift; sourceTree = "<group>"; };
 		1521170E2C569474000BB27C /* SidebarState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarState.swift; sourceTree = "<group>"; };
 		152117102C569481000BB27C /* SidebarReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarReducer.swift; sourceTree = "<group>"; };
@@ -80,6 +90,7 @@
 				1502172E2C43E2CE00C80D1A /* WBSeniorCourseApp.swift */,
 				152117122C569496000BB27C /* Store.swift */,
 				150217302C43E2CE00C80D1A /* ContentView.swift */,
+				150480232C60CCA1007B9A18 /* View */,
 				1521170B2C56945A000BB27C /* SideTabbar  */,
 				152117172C5694FB000BB27C /* Model */,
 				150217322C43E2CF00C80D1A /* Assets.xcassets */,
@@ -107,6 +118,26 @@
 				150217402C43E2EF00C80D1A /* Montserrat-SemiBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		150480232C60CCA1007B9A18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1504802F2C60CF6C007B9A18 /* Statistic  */,
+				1504802C2C60CCC9007B9A18 /* SettingsView.swift */,
+				150480262C60CCB6007B9A18 /* ChatView.swift */,
+				150480282C60CCBA007B9A18 /* FireView.swift */,
+				1504802A2C60CCC2007B9A18 /* CalendarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1504802F2C60CF6C007B9A18 /* Statistic  */ = {
+			isa = PBXGroup;
+			children = (
+				150480242C60CCAF007B9A18 /* StatisticView.swift */,
+			);
+			path = "Statistic ";
 			sourceTree = "<group>";
 		};
 		1521170B2C56945A000BB27C /* SideTabbar  */ = {
@@ -213,9 +244,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1521171B2C56A302000BB27C /* TabButton.swift in Sources */,
+				150480252C60CCAF007B9A18 /* StatisticView.swift in Sources */,
 				152117112C569481000BB27C /* SidebarReducer.swift in Sources */,
 				1521170F2C569474000BB27C /* SidebarState.swift in Sources */,
+				150480272C60CCB6007B9A18 /* ChatView.swift in Sources */,
 				152117152C5694B2000BB27C /* SidebarView.swift in Sources */,
+				1504802B2C60CCC2007B9A18 /* CalendarView.swift in Sources */,
+				1504802D2C60CCC9007B9A18 /* SettingsView.swift in Sources */,
+				150480292C60CCBB007B9A18 /* FireView.swift in Sources */,
 				150217312C43E2CE00C80D1A /* ContentView.swift in Sources */,
 				152117132C569496000BB27C /* Store.swift in Sources */,
 				1521170D2C569468000BB27C /* SidebarAction.swift in Sources */,
@@ -362,7 +398,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,7 +433,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

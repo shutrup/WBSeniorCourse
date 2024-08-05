@@ -18,9 +18,18 @@ struct ContentView: View {
             SidebarView()
                 .environmentObject(store)
             
-            Text("Выбранная вкладка: \(store.state.selectedTab)")
-                .font(.largeTitle)
-                .padding()
+            switch store.state.selectedTab {
+                case .statistic:
+                    StatisticView()
+                case .chat:
+                    ChatView()
+                case .fire:
+                    FireView()
+                case .calendar:
+                    CalendarView()
+                case .settings:
+                    SettingsView()
+            }
             
             Spacer()
         }
