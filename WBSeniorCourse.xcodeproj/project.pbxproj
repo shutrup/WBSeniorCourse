@@ -32,6 +32,9 @@
 		1502177B2C43E47400C80D1A /* HiddenNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217772C43E47400C80D1A /* HiddenNavigationBar.swift */; };
 		1502177C2C43E47400C80D1A /* HideKeyboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217782C43E47400C80D1A /* HideKeyboardModifier.swift */; };
 		1502177D2C43E47400C80D1A /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150217792C43E47400C80D1A /* ShakeEffect.swift */; };
+		15A8AFC62C778C3500B8312E /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 15A8AFC52C778C3500B8312E /* Swinject */; };
+		15A8AFC82C778C3500B8312E /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 15A8AFC72C778C3500B8312E /* Swinject-Dynamic */; };
+		15A8AFCA2C778C4300B8312E /* AppDependencyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A8AFC92C778C4300B8312E /* AppDependencyProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,7 @@
 		150217772C43E47400C80D1A /* HiddenNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenNavigationBar.swift; sourceTree = "<group>"; };
 		150217782C43E47400C80D1A /* HideKeyboardModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideKeyboardModifier.swift; sourceTree = "<group>"; };
 		150217792C43E47400C80D1A /* ShakeEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		15A8AFC92C778C4300B8312E /* AppDependencyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A8AFC62C778C3500B8312E /* Swinject in Frameworks */,
+				15A8AFC82C778C3500B8312E /* Swinject-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +102,7 @@
 			children = (
 				1502172E2C43E2CE00C80D1A /* WBSeniorCourseApp.swift */,
 				150217302C43E2CE00C80D1A /* ContentView.swift */,
+				15A8AFC92C778C4300B8312E /* AppDependencyProvider.swift */,
 				1502174A2C43E40600C80D1A /* ViewModel */,
 				150217642C43E43D00C80D1A /* View */,
 				150217552C43E43D00C80D1A /* Model */,
@@ -212,6 +219,10 @@
 			dependencies = (
 			);
 			name = WBSeniorCourse;
+			packageProductDependencies = (
+				15A8AFC52C778C3500B8312E /* Swinject */,
+				15A8AFC72C778C3500B8312E /* Swinject-Dynamic */,
+			);
 			productName = WBSeniorCourse;
 			productReference = 1502172B2C43E2CE00C80D1A /* WBSeniorCourse.app */;
 			productType = "com.apple.product-type.application";
@@ -240,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 150217222C43E2CE00C80D1A;
+			packageReferences = (
+				15A8AFC42C778C3500B8312E /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = 1502172C2C43E2CE00C80D1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -284,6 +298,7 @@
 				150217762C43E43D00C80D1A /* IpadContainerView.swift in Sources */,
 				1502177C2C43E47400C80D1A /* HideKeyboardModifier.swift in Sources */,
 				150217652C43E43D00C80D1A /* Constants.swift in Sources */,
+				15A8AFCA2C778C4300B8312E /* AppDependencyProvider.swift in Sources */,
 				150217702C43E43D00C80D1A /* RoundedCorner.swift in Sources */,
 				1502176A2C43E43D00C80D1A /* PhoneModel.swift in Sources */,
 				150217742C43E43D00C80D1A /* AuthScreen.swift in Sources */,
@@ -506,6 +521,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15A8AFC42C778C3500B8312E /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15A8AFC52C778C3500B8312E /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15A8AFC42C778C3500B8312E /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		15A8AFC72C778C3500B8312E /* Swinject-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15A8AFC42C778C3500B8312E /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = "Swinject-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 150217232C43E2CE00C80D1A /* Project object */;
 }

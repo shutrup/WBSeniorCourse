@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var authVm = AuthViewModel()
+    @StateObject var authVm: AuthViewModel
+    
+    init() {
+        _authVm = StateObject(wrappedValue: AppDependencyProvider.shared.resolve(AuthViewModel.self))
+    }
 
     var body: some View {
         NavigationStack {
@@ -18,3 +22,4 @@ struct ContentView: View {
         }
     }
 }
+

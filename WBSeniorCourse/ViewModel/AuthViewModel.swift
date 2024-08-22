@@ -8,7 +8,6 @@
 import SwiftUI
 import Combine
 
-@MainActor
-final class AuthViewModel: ObservableObject {
+class AuthViewModel: ObservableObject {
     @Published var phoneModel = PhoneModel(phoneNumber: "", phoneValidState: .none)
 }
