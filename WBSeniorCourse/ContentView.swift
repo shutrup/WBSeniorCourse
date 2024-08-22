@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var authVm: AuthViewModel
+    
+    init() {
+        _authVm = StateObject(wrappedValue: AppDependencyProvider.shared.resolve(AuthViewModel.self))
+    }
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            AuthScreen()
+                .environmentObject(authVm)
+                .preferredColorScheme(.dark)
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
