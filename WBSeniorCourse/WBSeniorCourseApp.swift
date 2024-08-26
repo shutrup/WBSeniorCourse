@@ -11,7 +11,8 @@ import SwiftUI
 struct WBSeniorCourseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProjectListView()
+                .modelContainer(for: [Project.self, Task.self])
         }
     }
 }
